@@ -1,3 +1,13 @@
+# FORK info
+
+branch ef4-main is my maintained fork of ember-orbit
+
+I'm publishing it with prebuild steps that are missing from upstream ember-orbit, in order to keep its internal type issues from impacting consuming apps:
+
+ - `ember ts:precompile`
+ - `yarn tsc`
+ - `find addon -name "*.ts" -exec rm "{}" \;`
+
 # ember-orbit
 
 [![Join the chat at https://gitter.im/orbitjs/orbit.js](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/orbitjs/orbit.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
