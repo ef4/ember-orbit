@@ -12,7 +12,8 @@ export interface TrackedAttr {
   set(this: Model, value: unknown): void;
 }
 
-export default function attr(type: string): any;
+export default function attr(): any;
+export default function attr(type: string, def?: AttributeDefinition): any;
 export default function attr(def: AttributeDefinition): any;
 export default function attr(
   typeOrDef?: string | AttributeDefinition,
