@@ -26,8 +26,6 @@
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
     "lint:ts": "tsc --noEmit",
-    "prepublishOnly": "ember ts:precompile",
-    "postpublish": "ember ts:clean",
     "start": "ember serve",
     "test": "npm-run-all lint test:*",
     "test:ember": "ember test",
