@@ -7,9 +7,7 @@ ember-orbit, in order to keep its internal type issues from impacting consuming
 apps:
 
  - update version number
- - restore package.json name to `ember-orbit` because the next step doesn't work with the fork name
  - `ember ts:precompile`
- - change package.json name back to `@ef4/ember-orbit`
  - `yarn tsc`
  - `find addon -name "*.ts" -exec rm "{}" \;`
  - `find addon-test-support -name "*.ts" -exec rm "{}" \;`
