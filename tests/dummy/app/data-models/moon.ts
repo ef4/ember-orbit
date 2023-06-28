@@ -1,4 +1,4 @@
-import { Model, attr, hasOne } from 'ember-orbit';
+import { Model, attr, hasOne } from '@ef4/ember-orbit';
 
 import Planet from 'dummy/data-models/planet';
 

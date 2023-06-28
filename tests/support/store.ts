@@ -1,7 +1,7 @@
 import { Dict } from '@orbit/utils';
-import { Model, ModelSettings } from 'ember-orbit';
-import { initialize as initializeConfig } from 'ember-orbit/initializers/ember-orbit-config';
-import { initialize as initializeServices } from 'ember-orbit/initializers/ember-orbit-services';
+import { Model, ModelSettings } from '@ef4/ember-orbit';
+import { initialize as initializeConfig } from '@ef4/ember-orbit/initializers/ember-orbit-config';
+import { initialize as initializeServices } from '@ef4/ember-orbit/initializers/ember-orbit-services';
 
 export function createStore(
   owner: any,

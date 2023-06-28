@@ -1,5 +1,5 @@
 import { getContext } from '@ember/test-helpers';
-import { Store } from 'ember-orbit';
+import { Store } from '@ef4/ember-orbit';
 import { Source } from '@orbit/data';
 
 export async function waitForSource(

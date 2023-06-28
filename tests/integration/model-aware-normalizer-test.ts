@@ -1,4 +1,4 @@
-import { Store } from 'ember-orbit';
+import { Store } from '@ef4/ember-orbit';
 import {
   Planet,
   Moon,
@@ -13,7 +13,7 @@ import { setupTest } from 'ember-qunit';
 import {
   isStandardRecord,
   ModelAwareNormalizer
-} from 'ember-orbit/-private/utils/model-aware-normalizer';
+} from '@ef4/ember-orbit/-private/utils/model-aware-normalizer';
 
 module('Integration - ModelAwareNormalizer', function (hooks) {
   setupTest(hooks);

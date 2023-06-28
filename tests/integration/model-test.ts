@@ -1,5 +1,5 @@
 /* eslint-disable ember/no-classic-classes */
-import { Store, Cache } from 'ember-orbit';
+import { Store, Cache } from '@ef4/ember-orbit';
 import {
   Planet,
   Moon,

@@ -1,4 +1,4 @@
 export {
   default,
   initialize
-} from 'ember-orbit/initializers/ember-orbit-config';
+} from '@ef4/ember-orbit/initializers/ember-orbit-config';

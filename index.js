@@ -4,7 +4,7 @@ const assert = require('assert');
 const fs = require('fs');
 
 module.exports = {
-  name: 'ember-orbit',
+  name: '@ef4/ember-orbit',
   included() {
     const app = this._findHost();
     const addonConfig = app.project.config(app.env)['orbit'] || {};

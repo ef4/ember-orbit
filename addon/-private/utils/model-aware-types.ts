@@ -8,7 +8,7 @@ import {
   RecordTransformBuilder,
   UninitializedRecord
 } from '@orbit/records';
-import { Model } from 'ember-orbit';
+import { Model } from '@ef4/ember-orbit';
 import { ModelFields } from './model-fields';
 
 export type RecordIdentityOrModel = RecordIdentity | RecordKeyValue | Model;

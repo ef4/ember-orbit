@@ -1,4 +1,4 @@
-import { Store } from 'ember-orbit';
+import { Store } from '@ef4/ember-orbit';
 import {
   Planet,
   Moon,
@@ -9,7 +9,7 @@ import {
 import { createStore } from 'dummy/tests/support/store';
 import { module, test } from 'qunit';
 
-import { normalizeModelFields } from 'ember-orbit/-private/utils/model-fields';
+import { normalizeModelFields } from '@ef4/ember-orbit/-private/utils/model-fields';
 import { setupTest } from 'ember-qunit';
 
 module('Integration - normalizeModelFields', function (hooks) {

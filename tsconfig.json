@@ -18,10 +18,10 @@
     "paths": {
       "dummy/tests/*": ["tests/*"],
       "dummy/*": ["tests/dummy/app/*", "app/*"],
-      "ember-orbit": ["addon"],
-      "ember-orbit/*": ["addon/*"],
-      "ember-orbit/test-support": ["addon-test-support"],
-      "ember-orbit/test-support/*": ["addon-test-support/*"],
+      "@ef4/ember-orbit": ["addon"],
+      "@ef4/ember-orbit/*": ["addon/*"],
+      "@ef4/ember-orbit/test-support": ["addon-test-support"],
+      "@ef4/ember-orbit/test-support/*": ["addon-test-support/*"],
       "@ember/destroyable": ["node_modules/ember-destroyable-polyfill"],
       "*": ["types/*"]
     }

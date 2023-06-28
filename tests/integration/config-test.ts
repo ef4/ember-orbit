@@ -1,4 +1,4 @@
-import { Store } from 'ember-orbit';
+import { Store } from '@ef4/ember-orbit';
 import { Planet, Moon, Star } from 'dummy/tests/support/dummy-models';
 import { createStore } from 'dummy/tests/support/store';
 import { module, test } from 'qunit';

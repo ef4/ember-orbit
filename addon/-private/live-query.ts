@@ -11,7 +11,7 @@ import {
 import { createCache, getValue } from '@glimmer/tracking/primitives/cache';
 
 import Cache from './cache';
-import { Model } from 'ember-orbit';
+import { Model } from '@ef4/ember-orbit';
 
 const { assert, deprecate } = Orbit;
 

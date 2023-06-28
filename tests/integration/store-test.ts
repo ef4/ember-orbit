@@ -1,4 +1,4 @@
-import { Store } from 'ember-orbit';
+import { Store } from '@ef4/ember-orbit';
 import {
   Planet,
   Moon,

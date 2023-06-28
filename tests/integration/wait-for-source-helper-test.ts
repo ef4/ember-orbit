@@ -1,10 +1,10 @@
-import { Store } from 'ember-orbit';
+import { Store } from '@ef4/ember-orbit';
 import { MemorySource } from '@orbit/memory';
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
 import { Planet } from 'dummy/tests/support/dummy-models';
 import { createStore } from 'dummy/tests/support/store';
-import { waitForSource } from 'ember-orbit/test-support';
+import { waitForSource } from '@ef4/ember-orbit/test-support';
 
 module('waitForSource helper', function (hooks) {
   let store: Store;

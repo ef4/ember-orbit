@@ -9,7 +9,7 @@ import {
   StandardRecordNormalizerSettings,
   UninitializedRecord
 } from '@orbit/records';
-import { Model } from 'ember-orbit';
+import { Model } from '@ef4/ember-orbit';
 import {
   RecordFieldsOrModel,
   RecordIdentityOrModel

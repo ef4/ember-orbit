@@ -1,4 +1,4 @@
-import { Model, attr, hasMany } from 'ember-orbit';
+import { Model, attr, hasMany } from '@ef4/ember-orbit';
 
 import Moon from 'dummy/data-models/moon';
 

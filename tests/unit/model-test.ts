@@ -1,4 +1,4 @@
-import { key, attr, hasOne, hasMany, Model } from 'ember-orbit';
+import { key, attr, hasOne, hasMany, Model } from '@ef4/ember-orbit';
 import { module, test } from 'qunit';
 
 module('Unit - Model', function () {

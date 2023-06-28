@@ -1,5 +1,5 @@
 import { MemorySource } from '@orbit/memory';
-import { applyStandardSourceInjections } from 'ember-orbit';
+import { applyStandardSourceInjections } from '@ef4/ember-orbit';
 
 export default {
   create(injections) {
