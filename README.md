@@ -11,6 +11,7 @@ apps:
  - `yarn tsc`
  - `find addon -name "*.ts" -exec rm "{}" \;`
  - `find addon-test-support -name "*.ts" -exec rm "{}" \;`
+ - `rm -rf types`
  - `npm publish`
 
 # ember-orbit
