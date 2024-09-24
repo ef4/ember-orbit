@@ -1,6 +1,6 @@
 {
   "name": "@ef4/ember-orbit",
-  "version": "0.17.3-ef4.5",
+  "version": "0.17.3-ef4.6",
   "description": "Ember.js data layer built with Orbit.js",
   "keywords": [
     "ember-addon",
